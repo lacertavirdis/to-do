@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista do zrobienia</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+    <section>
+        <h1>TO DO LIST</h1>
+        <input type="text" placeholder="Wpisz treść zadania...">
+        <button id="btn">ADD</button>
+    </section>
+    <br>
+    <br>
+    <article>
+        <h4>LISTA ZADAŃ</h4>
+        <p>Brak zadań na liście.</p>
+        <div>
+        </div>
+    </article>
+    <script>
+        btn.onclick = function(){
+            let paragraf = document.createElement("p");
+
+            document.querySelector("article > div").appendChild(paragraf).innerText =
+            document.querySelector("input").value;
+
+            if(document.querySelector("div > p") != null){
+            document.querySelector("article > p").remove();
+        }
+        }
+    </script>
+</body>
+</html>

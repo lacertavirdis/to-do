@@ -1,0 +1,75 @@
+body{
+    display:flex;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    justify-content: center;
+    color:white;
+    margin-top:70px;
+}
+
+section{
+    background: linear-gradient(#94A89A, #9CB380);
+    width:55%;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid white;
+    border-radius: 30px;
+}
+
+article {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 7px;
+    padding:20px;
+    background: linear-gradient( #9CB380, #94A89A);
+    width:53%;
+    height:350px;
+    overflow-y:scroll;
+    border:2px solid white;
+    border-radius: 30px;
+}
+
+div > p {
+    height:30px;
+    width:750px;
+    background-color: white;
+    opacity:75%;
+    color:#08080c;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+
+button {
+    margin:20px;
+    width:50px;
+    height:25px;
+    display: flex;
+    background-color:white;
+    color: #9CB380;
+    justify-content: center;
+    align-items: center;
+    font-family:inherit;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+input[type="text"]{
+    width:55%;
+    height:25px;
+    display: flex;
+    font-family: inherit;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding:5px;
+}
